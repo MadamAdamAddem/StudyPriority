@@ -1,0 +1,40 @@
+Adam 1 May 03
+Badam 3 May 05
+Cadam 2 May 06
+Dadam 0 May 04
+.
+
+FORMAT:
+	Name HoursRequired Month Day
+	
+	Month must use first three letters, capitalize the first
+	Day must use two digits
+	End it in a period on the next line
+
+RULES:
+	Names can be repeated, but they are displayed with their name so tough luck figuring out which is which
+
+HOW:
+	Uses a ratio of DaysTillDue : Hours Required
+	
+LIMITATIONS:
+	Any assignment with 0 hours required may crash system (x/0)
+
+	Accounts for leap years, but not if the assignment is due next year
+		Uses the current year's leap year status, for example if the current year is not leap but next year is, will only count feb as 28th for both
+
+	Any assignment due today will be unsorted grouped together, (0/x), so use your discretion
+		(Don't use discretion, because then this entire thing is pointless)
+	
+
+
+
+
+
+
+
+
+
+
+
+i be in new ho king eating fried rice with a dip sauce and a blammy crodie
